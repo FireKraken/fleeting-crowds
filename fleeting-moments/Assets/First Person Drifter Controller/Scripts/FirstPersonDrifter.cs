@@ -153,4 +153,11 @@ public class FirstPersonDrifter: MonoBehaviour
     {
         //print ("Ouch! Fell " + fallDistance + " units!");   
     }
+
+	void Update() {
+		if (Input.GetKeyDown("e"))
+			print("Hey!");
+		
+	}
+
 }
